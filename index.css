@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(240, 240, 240), rgb(200, 200, 200));
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Updated text color */
+}
+
+.resume-builder {
+    padding: 50px 100px; /* Increased padding for better spacing */
+}
+
+.container {
+    padding: 30px;
+    background: #fff; /* Updated background color */
+    border-radius: 15px; /* Increased border radius */
+    width: 70%; /* Adjusted width */
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+}
+
+.container h1 {
+    text-align: center;
+    background-color: #333;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 30px; /* Increased margin */
+}
+
+input
+ {
+    background-color: #f7f7f7; /* Lighter background color */
+    margin: 10px 0;
+    padding: 10px; /* Increased padding */
+    outline: none;
+    border: 1px solid #ccc; /* Lighter border color */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%;
+}
+
+button {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px; /* Increased padding */
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+.tip {
+    font-size: smaller; /* Smaller font size */
+    color: #777; /* Darker gray for better visibility */
+    text-align: center;
+    margin-top: 20px; /* Increased margin for separation */
+}
+
+.credit {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #777; /* Darker gray for better visibility */
+}
+
+a {
+    color: #337ab7; /* Standard link color */
+    text-decoration: none; /* Removed underline */
+}
+
+a:hover {
+    color: #23527c; /* Darker color on hover */
+}
+
+/* Media queries */
+@media screen and (max-width: 920px) {
+    .container {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume-builder {
+        padding: 30px; /* Decreased padding for smaller screens */
+    }
+
+    .container {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .tip {
+        font-size: x-small; /* Smaller font size */
+    }
+}
